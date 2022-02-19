@@ -1,25 +1,29 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "name": "QALAM Feedback Form Automation Tool",
+  "description": "Makes it so that you don't every have to fill those teacher feedback forms again",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Fill Feedback Form"
+  },
+  "content_scripts": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "matches": [
+        "https://qalam.nust.edu.pk/survey/*",
+        "http://qalam.nust.edu.pk/survey/*/*"
+      ],
+      "js": ["./static/js/content.js"],
+      "all_frames": false,
+      "run_at": "document_end"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "optional_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
