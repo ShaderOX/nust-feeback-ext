@@ -2,16 +2,18 @@
 
 <center>
 <img src="https://img.shields.io/github/license/ShaderOX/nust-feeback-ext?style=flat-square" alt="License" />
+<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/shaderox/nust-feeback-ext?style=flat-square">
 <!-- <img src="https://img.shields.io/github/downloads/shaderOX/nust-feeback-ext/total?style=flat-square" alt="GitHub all releases" /> -->
 <!-- <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/fkjcihepmkgphfakckacocmnopgmpbhb?style=flat-square"> -->
 </center>
 
 
 ## Contents
+  - [Extension Support](#extension-support)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Issues/Bugs/Suggestions](#issuesbugssuggestions)
+  - [Issues, Bugs Reports, and Suggestions](#issues-bugs-reports-and-suggestions)
 
 ___ 
 
@@ -46,7 +48,7 @@ Some screenshots are attached below to help you get started.
 
 
 ## License
-You can read the license [here](Licence)
+You can read the license [here](./LICENSE)
 
 ## Issues, Bugs Reports, and Suggestions 
 This was just a fun project and it definitely needs improvement and a lot of work. 
