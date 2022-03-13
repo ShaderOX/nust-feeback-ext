@@ -2,8 +2,8 @@
   "name": "QALAM Feedback Form Automation Tool",
   "description": "Makes it so that you don't every have to fill those feedback forms ever again",
   "version": "1.0",
-  "manifest_version": 3,
-  "action": {
+  "manifest_version": 2,
+  "browser_action": {
     "default_popup": "index.html",
     "default_title": "Fill Feedback Form"
   },
@@ -18,9 +18,10 @@
       "run_at": "document_end"
     }
   ],
-  "icons": { "128": "icon.png" },
+  "optional_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "../images/icon.png"
+  },
   "permissions": ["activeTab"],
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
-  }
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
