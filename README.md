@@ -1,11 +1,11 @@
 # QALAM Feedback Extension 
 
-<center>
+<div>
 <img src="https://img.shields.io/github/license/ShaderOX/nust-feeback-ext?style=flat-square" alt="License" />
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/shaderox/nust-feeback-ext?style=flat-square">
 <!-- <img src="https://img.shields.io/github/downloads/shaderOX/nust-feeback-ext/total?style=flat-square" alt="GitHub all releases" /> -->
 <!-- <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/fkjcihepmkgphfakckacocmnopgmpbhb?style=flat-square"> -->
-</center>
+</div>
 
 
 ## Contents
