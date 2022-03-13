@@ -41,3 +41,8 @@ yarn-error.log*
 /.changelog
 .npm/
 dist
+
+todo.md
+*.zip
+
+Feedback Form Extension*

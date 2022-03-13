@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# QALAM Feedback Extension 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<center>
+<img src="https://img.shields.io/github/license/ShaderOX/nust-feeback-ext?style=flat-square" alt="License" />
+<!-- <img src="https://img.shields.io/github/downloads/shaderOX/nust-feeback-ext/total?style=flat-square" alt="GitHub all releases" /> -->
+<!-- <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/fkjcihepmkgphfakckacocmnopgmpbhb?style=flat-square"> -->
+</center>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Issues/Bugs/Suggestions](#issuesbugssuggestions)
 
-### `yarn start`
+___ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Extension Support
+The extension works on all chromium based browsers, but it's recommended to be used with chrome since the extension is not tested adequately on other browsers. 
+Some of the popular chromium based browsers include Chrome, Brave, Edge, Opera, Vivaldi, and Yandex  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation 
+To add the the extension to your browser you can follow the steps listed below, 
+*Note: This is a one-time step.* 
+ 1. Download the latest [release](https://github.com/ShaderOX/nust-feeback-ext/releases) (*`Feedback.Form.Extension.1.0.zip`*) from the GitHub page. 
+  ![Download](images/1-downloads.png)
+ 1. Unzip the file
+  ![Unzip](images/2-extraction.png)
+    1. Then head over to the extensions tab on your browser, for chrome its [chrome://extensions](chrome://extensions)
+    1. Then enable `Developer mode` 
+    ![Developer mode toggle](images/3-developer%20mode.png)
+    1. Then click on `Add Unpacked`
+    ![Load unpacked](images/4-load%20unpacked.png)
+1. Then simple select that extracted folder from the step 2 and it should appear in the list of extensions. 
+![Adding the extension](images/5-adding.png)
+![Added](images/6-added.png) 
 
-### `yarn test`
+## Usage
+The extension is designed to work only on the Qalam Feedback form page and no other page. 
+Some screenshots are attached below to help you get started. 
+![alt](images/usage/1.jpeg)
+![alt](images/usage/2.jpeg)
+![alt](images/usage/3.jpeg)
+![alt](images/usage/4.jpeg)
+*Images courtesy of [Ali Abbas](https://github.com/abbassays)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## License
+You can read the license [here](Licence)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Issues, Bugs Reports, and Suggestions 
+This was just a fun project and it definitely needs improvement and a lot of work. 
+In case you find an error or have a suggestion, please feel free to open an issue or make a pull request. 
+Enjoy :) 
