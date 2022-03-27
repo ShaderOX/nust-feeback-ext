@@ -1,6 +1,6 @@
 {
   "name": "QALAM Feedback Form Automation Tool",
-  "description": "Makes it so that you don't every have to fill those feedback forms ever again",
+  "description": "Automatically fills in the feedback form for QALAM",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {

@@ -38,6 +38,7 @@ function App() {
       chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
         setCurrentTab(tabs[0]);
         if (
+          currentTab &&
           currentTab!.url &&
           currentTab!.url.includes("qalam.nust.edu.pk/survey")
         ) {
